@@ -7,3 +7,5 @@ By reducing the heap allocation from **8.9 MB to 1.6 MB** (-82%) and improving e
 * **Garbage Collection Overhead:** Suppressed 25 out of 26 heap reallocations per operation, preventing memory spikes and lowering vCPU throttling.
 * **Infrastructure Footprint:** Enables running microservices on lower-tier containers (e.g., downsizing AWS Fargate instances from `1 vCPU / 2 GB` to `0.25 vCPU / 0.5 GB`).
 * **Estimated Cloud Savings:** At 10M requests/month across a 10-node cluster, this zero-allocation strategy achieves up to **75% reduction in compute costs (~$4,300+ USD saved annually)**.
+
+Testing: A benchmark is provided in the benchmark.bat file.
