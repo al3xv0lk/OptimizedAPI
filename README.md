@@ -1,4 +1,4 @@
-## 💰 Business & Cloud Cost Impact
+## An API optimization example
 
 Optimizing memory allocation directly dictates infrastructure sizing and cloud billings (AWS EC2 / Fargate / Google Cloud Run).
 
